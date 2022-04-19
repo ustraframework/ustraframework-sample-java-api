@@ -41,8 +41,8 @@ ustra:
     view:
       api-prefix: api
       client-crypto-key: Z3NjLWNyeXB0by1rZXkxMQ==
-      #type: STATIC_THYEMELEAF
-      type: STATIC_RESOURCE
+      type: STATIC_THYEMELEAF
+      #type: STATIC_RESOURCE
     rest:
       exclude-wrapping-url-patterns: /v2/api-docs,/swagger-resources/**,/swagger-ui.html,/webjars/**
     wrapper:

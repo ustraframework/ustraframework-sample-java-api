@@ -15,4 +15,11 @@
         </if>
     </select>
 
+    <select id="getCodes" resultType="com.gsitm.ustra.java.sample.api.example.ExampleModel">
+        SELECT GRP_CD,
+               DTL_CD,
+               CD_NM
+        FROM USTRA_SAMPLE_CMM_CD
+    </select>
+
 </mapper>
